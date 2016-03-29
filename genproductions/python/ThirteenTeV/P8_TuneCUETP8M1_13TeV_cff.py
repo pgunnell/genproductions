@@ -1,6 +1,6 @@
 import FWCore.ParameterSet.Config as cms
 
-process.generator = cms.EDFilter("Pythia8GeneratorFilter",
+generator = cms.EDFilter("Pythia8GeneratorFilter",
 				 comEnergy = cms.double(13000.0),
 				 crossSection = cms.untracked.double(9.573213e+08),
 				 filterEfficiency = cms.untracked.double(1),
@@ -17,7 +17,8 @@ process.generator = cms.EDFilter("Pythia8GeneratorFilter",
 	'SoftQCD:nonDiffractive = on',
 	'SoftQCD:singleDiffractive = on',
 	'SoftQCD:doubleDiffractive = on',
-	
+	'SoftQCD:centralDiffractive = on',
+
 	# HardQCD
 	#'HardQCD:all = on',
 	#'PhaseSpace:bias2Selection = on',
@@ -44,4 +45,10 @@ process.generator = cms.EDFilter("Pythia8GeneratorFilter",
 	parameterSets = cms.vstring('processParameters')
 	)
 				 )
+
+configurationMetadata = cms.untracked.PSet(
+    version = cms.untracked.string('\$Revision: 1.1 $'),
+    name = cms.untracked.string('https://github.com/pgunnell/genproductions/edit/DASRivet-P8/genproductions/python/ThirteenTeV/P8_TuneCUETP8M1_13TeV_cff.py'),
+    annotation = cms.untracked.string('Sample with PYTHIA8 for RIVET exercise')
+)
 
