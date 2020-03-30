@@ -1,0 +1,8 @@
+set param_card mass 6 172.5 
+set param_card yukawa 6 172.5 
+set param_card decay 6 auto 
+set param_card ctG 1.0 
+set param_card ctGI 1.0 
+set param_card ctW 1.0 
+set param_card ctWI 1.0 
+set run_card maxjetflavor 5 

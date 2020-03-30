@@ -1,0 +1,114 @@
+#****************************************************************** 
+#                       Reweight Module                           * 
+#****************************************************************** 
+ 
+ change rwgt_dir rwgt 
+ 
+launch --rwgt_name=rwgt_ctG_min2p0_ctGI_min2p0_ctW_2p0_ctWI_min7p3 
+set ctG -2.000000 
+set ctGI -2.000000 
+set ctW 2.000000 
+set ctWI -7.300000 
+ 
+launch --rwgt_name=rwgt_ctG_min2p0_ctGI_1p6_ctW_min2p0_ctWI_min7p3 
+set ctG -2.000000 
+set ctGI 1.600000 
+set ctW -2.000000 
+set ctWI -7.300000 
+ 
+launch --rwgt_name=rwgt_ctG_0p0_ctGI_min2p0_ctW_min2p0_ctWI_min3p04 
+set ctG 0.000000 
+set ctGI -2.000000 
+set ctW -2.000000 
+set ctWI -3.040000 
+ 
+launch --rwgt_name=rwgt_ctG_0p0_ctGI_min2p0_ctW_min2p0_ctWI_min7p3 
+set ctG 0.000000 
+set ctGI -2.000000 
+set ctW -2.000000 
+set ctWI -7.300000 
+ 
+launch --rwgt_name=rwgt_ctG_2p0_ctGI_min2p0_ctW_min2p0_ctWI_min7p3 
+set ctG 2.000000 
+set ctGI -2.000000 
+set ctW -2.000000 
+set ctWI -7.300000 
+ 
+launch --rwgt_name=rwgt_SM 
+set ctG 0.000000 
+set ctGI 0.000000 
+set ctW 0.000000 
+set ctWI 0.000000 
+ 
+launch --rwgt_name=rwgt_ctG_min2p0_ctGI_min2p0_ctW_min2p0_ctWI_1p2199999999999998 
+set ctG -2.000000 
+set ctGI -2.000000 
+set ctW -2.000000 
+set ctWI 1.220000 
+ 
+launch --rwgt_name=rwgt_ctG_min2p0_ctGI_min2p0_ctW_min2p0_ctWI_min7p3 
+set ctG -2.000000 
+set ctGI -2.000000 
+set ctW -2.000000 
+set ctWI -7.300000 
+ 
+launch --rwgt_name=rwgt_ctG_min2p0_ctGI_1p6_ctW_0p0_ctWI_min7p3 
+set ctG -2.000000 
+set ctGI 1.600000 
+set ctW 0.000000 
+set ctWI -7.300000 
+ 
+launch --rwgt_name=rwgt_ctG_min2p0_ctGI_5p2_ctW_min2p0_ctWI_min7p3 
+set ctG -2.000000 
+set ctGI 5.200000 
+set ctW -2.000000 
+set ctWI -7.300000 
+ 
+launch --rwgt_name=rwgt_ctG_min2p0_ctGI_min2p0_ctW_0p0_ctWI_min7p3 
+set ctG -2.000000 
+set ctGI -2.000000 
+set ctW 0.000000 
+set ctWI -7.300000 
+ 
+launch --rwgt_name=rwgt_ctG_min2p0_ctGI_min2p0_ctW_0p0_ctWI_min3p04 
+set ctG -2.000000 
+set ctGI -2.000000 
+set ctW 0.000000 
+set ctWI -3.040000 
+ 
+launch --rwgt_name=rwgt_ctG_0p0_ctGI_1p6_ctW_min2p0_ctWI_min7p3 
+set ctG 0.000000 
+set ctGI 1.600000 
+set ctW -2.000000 
+set ctWI -7.300000 
+ 
+launch --rwgt_name=rwgt_ctG_5p0_ctGI_2p0 
+set ctG 5.000000 
+set ctGI 2.000000 
+set ctW 0.000000 
+set ctWI 0.000000 
+ 
+launch --rwgt_name=rwgt_ctG_min2p0_ctGI_min2p0_ctW_min2p0_ctWI_min3p04 
+set ctG -2.000000 
+set ctGI -2.000000 
+set ctW -2.000000 
+set ctWI -3.040000 
+ 
+launch --rwgt_name=rwgt_ctG_min3p0_ctW_2p0 
+set ctG -3.000000 
+set ctGI 0.000000 
+set ctW 2.000000 
+set ctWI 0.000000 
+ 
+launch --rwgt_name=rwgt_ctG_0p0_ctGI_min2p0_ctW_0p0_ctWI_min7p3 
+set ctG 0.000000 
+set ctGI -2.000000 
+set ctW 0.000000 
+set ctWI -7.300000 
+ 
+launch --rwgt_name=rwgt_ctG_min2p0_ctGI_1p6_ctW_min2p0_ctWI_min3p04 
+set ctG -2.000000 
+set ctGI 1.600000 
+set ctW -2.000000 
+set ctWI -3.040000 
+ 
