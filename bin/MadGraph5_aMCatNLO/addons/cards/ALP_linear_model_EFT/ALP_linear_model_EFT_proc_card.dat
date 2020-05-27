@@ -1,0 +1,9 @@
+import model ALP_linear_UFO_WIDTH 
+define p = p b b~ 
+define j = p 
+define l+ = e+ mu+ ta+ 
+define l- = e- mu- ta- 
+define vl = ve vm vt 
+define vl~ = ve~ vm~ vt~ 
+generate p p > t t~
+output ALP_linear_model_EFT

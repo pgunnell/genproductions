@@ -1,0 +1,90 @@
+#****************************************************************** 
+#                       Reweight Module                           * 
+#****************************************************************** 
+ 
+ change rwgt_dir rwgt 
+ 
+launch --rwgt_name=rwgt_CaPhi_3p0 
+set CGtil 0.000000 
+set CaPhi 3.000000 
+ 
+launch --rwgt_name=rwgt_CGtil_1p0 
+set CGtil 1.000000 
+set CaPhi 0.000000 
+ 
+launch --rwgt_name=rwgt_CaPhi_min3 
+set CGtil 0.000000 
+set CaPhi -3.000000 
+ 
+launch --rwgt_name=rwgt_CaPhi_min2p0 
+set CGtil 0.000000 
+set CaPhi -2.000000 
+ 
+launch --rwgt_name=rwgt_CaPhi_min5 
+set CGtil 0.000000 
+set CaPhi -5.000000 
+ 
+launch --rwgt_name=rwgt_CGtil_min2p0 
+set CGtil -2.000000 
+set CaPhi 0.000000 
+ 
+launch --rwgt_name=rwgt_CGtil_4p0 
+set CGtil 4.000000 
+set CaPhi 0.000000 
+ 
+launch --rwgt_name=rwgt_CGtil_5p0 
+set CGtil 5.000000 
+set CaPhi 0.000000 
+ 
+launch --rwgt_name=rwgt_CGtil_min5 
+set CGtil -5.000000 
+set CaPhi 0.000000 
+ 
+launch --rwgt_name=rwgt_CaPhi_min1p0 
+set CGtil 0.000000 
+set CaPhi -1.000000 
+ 
+launch --rwgt_name=rwgt_SM 
+set CGtil 0.000000 
+set CaPhi 0.000000 
+ 
+launch --rwgt_name=rwgt_CaPhi_1p0 
+set CGtil 0.000000 
+set CaPhi 1.000000 
+ 
+launch --rwgt_name=rwgt_CGtil_min1p0 
+set CGtil -1.000000 
+set CaPhi 0.000000 
+ 
+launch --rwgt_name=rwgt_CaPhi_5p0 
+set CGtil 0.000000 
+set CaPhi 5.000000 
+ 
+launch --rwgt_name=rwgt_CaPhi_2p0 
+set CGtil 0.000000 
+set CaPhi 2.000000 
+ 
+launch --rwgt_name=rwgt_CGtil_min4 
+set CGtil -4.000000 
+set CaPhi 0.000000 
+ 
+launch --rwgt_name=rwgt_CaPhi_min4 
+set CGtil 0.000000 
+set CaPhi -4.000000 
+ 
+launch --rwgt_name=rwgt_CaPhi_4p0 
+set CGtil 0.000000 
+set CaPhi 4.000000 
+ 
+launch --rwgt_name=rwgt_CGtil_2p0 
+set CGtil 2.000000 
+set CaPhi 0.000000 
+ 
+launch --rwgt_name=rwgt_CGtil_3p0 
+set CGtil 3.000000 
+set CaPhi 0.000000 
+ 
+launch --rwgt_name=rwgt_CGtil_min3 
+set CGtil -3.000000 
+set CaPhi 0.000000 
+ 
