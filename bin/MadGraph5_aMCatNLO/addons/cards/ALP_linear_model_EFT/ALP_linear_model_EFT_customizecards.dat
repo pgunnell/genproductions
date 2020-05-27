@@ -3,6 +3,8 @@ set param_card yukawa 6 172.5
 set param_card decay 6 auto 
 set param_card CaPhi 1.0 
 set param_card CGtil 1.0 
+set param_card CWtil 0.0 
+set param_card Cbtil 0.0
 set run_card maxjetflavor 5 
 set param_card mass 9000005 100
 set param_card width 9000005 10 
